@@ -669,12 +669,7 @@
 .home-text18 {
   font-style: italic;
   font-family: "Playfair Display";
-  font-weight: 500;
-}
-.home-text19 {
-  font-style: italic;
-  font-family: "Playfair Display";
-  font-weight: 500;
+  font-weight: 400;
 }
 .home-selector {
   width: 100%;
@@ -2309,6 +2304,17 @@
   .home-slider {
     max-width: 100%;
   }
+  .home-heading02 {
+    color: rgb(255, 255, 255);
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+  }
+  .home-text18 {
+    font-style: italic;
+    font-family: Playfair Display;
+    font-weight: 400;
+  }
   .home-caption06 {
     text-align: left;
   }
@@ -2468,6 +2474,17 @@
   }
   .home-header05 {
     animation-name: none;
+  }
+  .home-heading02 {
+    color: rgb(255, 255, 255);
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+  }
+  .home-text18 {
+    font-style: italic;
+    font-family: Playfair Display;
+    font-weight: 400;
   }
   .home-selector {
     gap: var(--dl-space-space-twounits);
@@ -3065,7 +3082,21 @@
     padding: var(--dl-space-space-threeunits);
   }
   .home-heading02 {
-    font-size: 40px;
+    color: rgb(255, 255, 255);
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 42px;
+  }
+  .home-text18 {
+    font-style: italic;
+    font-family: Playfair Display;
+    font-weight: 500;
+  }
+  .home-text19 {
+    font-style: italic;
+    font-family: Playfair Display;
+    font-weight: 500;
   }
   .home-caption06 {
     font-size: 16px;
@@ -3506,7 +3537,7 @@
     line-height: 30px;
   }
   .home-slider1 {
-    height: var(--dl-size-size-xxlarge);
+    height: 400px;
     margin: 0px;
   }
   .home-content02 {
